@@ -1,4 +1,4 @@
-# Day 1 – React Hooks (Kid Style 😄)
+# Day 1 – React Hooks 
 
  🧠 What I learned
 Today I learned how React remembers things and reacts to changes.
