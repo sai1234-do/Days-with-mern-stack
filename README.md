@@ -73,3 +73,50 @@ Used to pass data
 Flow is parent → child<Student name="Sai" />function Student(props) {
   return <h2>Name: {props.name}</h2>;
 }
+Today I learned:
+What events are in React
+How to handle button clicks
+How React events are different from HTML
+How to pass functions to events<button onclick="clickMe()">Click</button><button onClick={clickMe}>Click</button>function ClickExample() {
+  function handleClick() {
+    alert("Button clicked!");
+  }
+
+  return (
+    <button onClick={handleClick}>
+      Click Me
+    </button>
+  );
+}
+import { useState } from "react";
+
+function Counter() {
+  const [count, setCount] = useState(0);
+
+  function increase() {
+    setCount(count + 1);
+  }
+
+  return (
+    <div>
+      <p>Count: {count}</p>
+      <button onClick={increase}>+</button>
+    </div>
+  );
+}
+import { useState } from "react";
+
+function Counter() {
+  const [count, setCount] = useState(0);
+
+  function increase() {
+    setCount(count + 1);
+  }
+
+  return (
+    <div>
+      <p>Count: {count}</p>
+      <button onClick={increase}>+</button>
+    </div>
+  );
+}
