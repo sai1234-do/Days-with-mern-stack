@@ -120,3 +120,47 @@ function Counter() {
     </div>
   );
 }
+## 📅 Day 5 – Validations & REST APIs
+
+### 🧠 What I learned today
+Today I learned:
+- What validation is and why it is important
+- Frontend vs Backend validation
+- What REST API is
+- Common REST API methods and status codes
+
+---
+
+### 🔹 What is Validation?
+Validation means checking user input before processing it.
+
+Examples:
+- Email should not be empty
+- Password should have minimum length
+- Name should contain only letters
+
+Validation helps to:
+- Prevent wrong data
+- Improve user experience
+- Protect backend/server
+
+---
+
+### 🔹 Frontend Validation (Client Side)
+
+Frontend validation happens before sending data to the server.
+
+```js
+function handleSubmit(email, password) {
+  if (email === "") {
+    alert("Email is required");
+    return;
+  }
+
+  if (password.length < 8) {
+    alert("Password must be at least 8 characters");
+    return;
+  }
+
+  alert("Form submitted successfully");
+}
