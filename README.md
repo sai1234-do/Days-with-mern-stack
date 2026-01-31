@@ -164,3 +164,38 @@ function handleSubmit(email, password) {
 
   alert("Form submitted successfully");
 }
+## 📅 Day 7 – Express.js Basics
+
+### 🧠 What I learned today
+Today I learned:
+- What Express.js is
+- Why Express is used with Node.js
+- How to create a simple Express server
+- What routes are
+
+---
+
+### 🔹 What is Express.js?
+Express.js is a **framework built on top of Node.js**.
+
+🧠 Simple meaning:
+- Node.js gives power
+- Express.js makes work **easy and fast**
+
+---
+
+### 🔹 Why Express.js?
+Without Express:
+- More code
+- Hard to manage routes
+
+With Express:
+- Less code
+- Easy routing
+- Easy REST APIs
+
+---
+
+### 🔹 Installing Express
+```bash
+npm install express
